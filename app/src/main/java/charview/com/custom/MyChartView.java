@@ -1,4 +1,4 @@
-package charview.com.mychartview;
+package charview.com.custom;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,6 +15,8 @@ import android.view.View;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
+import charview.com.mychartview.R;
 
 /**
  * Created by lin on 2017/4/16.

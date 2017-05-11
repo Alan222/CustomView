@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ShowActivity">
+        </activity>
+        <activity android:name=".ChartActivity">
+        </activity>
+        <activity android:name=".WaveActivity">
+        </activity>
     </application>
 
 </manifest>
