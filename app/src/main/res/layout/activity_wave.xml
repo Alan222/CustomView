@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="charview.com.mychartview.WaveActivity">
-    <charview.com.custom.WaveView
+    <charview.com.custom.MyWaveView
         android:layout_centerInParent="true"
         android:background="@color/colorAccent"
         android:layout_width="match_parent"

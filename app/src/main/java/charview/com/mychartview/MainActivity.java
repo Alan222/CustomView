@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.chartView, R.id.waveView})
+    @OnClick({R.id.chartView, R.id.waveView,R.id.dragview})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.chartView:
@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.waveView:
                 startActivity(new Intent(this,WaveActivity.class));
+                break;
+            case R.id.dragview:
+                startActivity(new Intent(this,DragViewActivity.class));
                 break;
         }
     }
