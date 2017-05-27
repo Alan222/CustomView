@@ -24,4 +24,9 @@
         android:text="拖拽布局"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/star_view"
+        android:text="手绘星星"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
