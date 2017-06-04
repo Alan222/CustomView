@@ -29,4 +29,9 @@
         android:text="手绘星星"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/drag_recycler"
+        android:text="拖拽recycelr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

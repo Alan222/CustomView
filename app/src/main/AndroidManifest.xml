@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="charview.com.mychartview">
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +22,7 @@
 
         <activity android:name=".WaveActivity"/>
         <activity android:name=".StarViewActivity"/>
+        <activity android:name=".DragRecyclerActivity"/>
     </application>
 
 </manifest>
